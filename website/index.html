@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NimFlux Browser</title>
+  <style>
+body {
+  background-color: #1a1a1a;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.catchphrase {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 100px;
+  color: #ff4444;
+}
+
+.browser-image {
+  display: block;
+  margin: 50px auto;
+  width: 80%;
+  border-radius: 20px;
+}
+
+.version {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.download-button {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #ff4444;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="browser-name">NimFlux</div>
+    <a href="https://callendv.github.io/NimFlux/releases/latest/" class="download-button">Download</a>
+  </div>
+  <div class="catchphrase">Where speed meets simplicity.</div>
+  <img src="browser.png" alt="Screenshot of NimFlux" class="browser-image">
+  <div class="version">Version: v1.00-beta</div>
+  <a href="https://callendv.github.io/NimFlux/releases/latest/" class="download-button">Download</a>
+</body>
+</html>
